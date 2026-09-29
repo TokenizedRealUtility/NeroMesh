@@ -295,7 +295,7 @@ Enter your public TRU receiving address.
 Then click:
 
 **REQUEST ADDRESS APPROVAL**
-
+![NEROMESH Payout Address 2](images/09-payout-address.png)
 The address is submitted for operator approval.
 
 Never enter:
