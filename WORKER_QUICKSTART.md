@@ -1,4 +1,3 @@
-```markdown
 # NEROMESH Worker Quick Start
 
 NEROMESH allows you to connect your own computer to the **TRU / Axon distributed AI compute network**.
@@ -491,5 +490,4 @@ Your machine should report periodically while the NEROMESH worker is running.
 **The Axon Compute Network**
 
 Independent compute. Coordinated intelligence.
-```
 
