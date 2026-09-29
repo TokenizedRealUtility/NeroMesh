@@ -290,8 +290,6 @@ Once your worker has been installed, open your Worker Account and locate:
 
 Enter your public TRU receiving address.
 
-![NEROMESH Payout Address](images/08-payout-address.png)
-
 Then click:
 
 **REQUEST ADDRESS APPROVAL**
