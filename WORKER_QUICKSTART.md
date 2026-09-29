@@ -1,9 +1,3 @@
-Absolutely. I would make this a **very simple public-facing quick-start**, where a normal user does not need to understand Cloudflare, ports, Python, or the NEROMESH backend.
-
-One important security issue first: **do not upload the current Image 3 to GitHub as-is.** It contains an actual-looking `nmi_...` installation invitation and `nmp_...` worker-account key. The `nmp_` key should be treated like a password. Use a redacted/demo screenshot for the public README, and if those are live credentials, replace/reissue them before using that account publicly.
-
-I would rename your screenshots `01-join-the-mesh.png` through `08-payout-address.png`, put them in an `images/` directory, and paste the following directly into GitHub:
-
 ```markdown
 # NEROMESH Worker Quick Start
 
@@ -499,23 +493,6 @@ Your machine should report periodically while the NEROMESH worker is running.
 Independent compute. Coordinated intelligence.
 ```
 
-A couple of changes I made from your original flow are important: the guide now tells users **exactly which of the two keys goes where**, it uses `https://tru.neromesh.space` automatically as the public gateway, and it has the user install/connect the worker **before requesting payout approval**, matching the flow you're building.
 
-For your GitHub repo I would use this image layout:
-
-```text
-neromesh-worker-bundle/
-├── README.md
-├── WORKER_QUICKSTART.md
-└── images/
-    ├── 01-join-the-mesh.png
-    ├── 02-register-worker.png
-    ├── 03-worker-credentials.png
-    ├── 04-download-worker.png
-    ├── 05-open-worker-account.png
-    ├── 06-worker-account-login.png
-    ├── 07-worker-pending.png
-    └── 08-payout-address.png
-```
 
 And again, **replace/redact Image 3 before it ever goes into the public repository**. The screenshot you supplied contains the worker-account credential in clear text; the public documentation should use fake/demo `nmi_...` and `nmp_...` values instead.
