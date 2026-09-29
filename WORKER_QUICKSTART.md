@@ -493,6 +493,3 @@ Your machine should report periodically while the NEROMESH worker is running.
 Independent compute. Coordinated intelligence.
 ```
 
-
-
-And again, **replace/redact Image 3 before it ever goes into the public repository**. The screenshot you supplied contains the worker-account credential in clear text; the public documentation should use fake/demo `nmi_...` and `nmp_...` values instead.
